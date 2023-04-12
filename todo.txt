@@ -1,0 +1,13 @@
+1. add firebase to android
+2. to ios
+3. to android
+
+// Notes //
+To create a SHA1 Key
+install the latest JDK
+then on cmd type keytool
+then to generate: keytool -genkey -v -keystore debug.keystore -alias androiddebugkey -storepass android -keypass android -keyalg RSA -keysize 2048 -validity 10000
+then to view: keytool -list -v -keystore "C:\Users\justi\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+
+firebase.initializeapp() => android and ios
+firebase.initializeapp(options: options)
